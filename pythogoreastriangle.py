@@ -1,30 +1,30 @@
-a=int(input("Enter the value of first number:"))
-b=int(input("Enter the value of second number:"))
-c=int(input("Enter the value of third number:"))
-x=0
-y=0
+a=int(input("Enter the first side:"))
+b=int(input("Enter the second side:"))
+c=int(input("Enter the third side:"))
+
+
+# If a,b,c are: 3,4,5 and 5,12,13 this code tells that it is a Pythogoreas traingle.
 if(a>b and a>c):
-    print("A is the greatest element.");
-    x=a*a;
-    y=b*b+c*c
-    if(x==y):
-        print("This is a right angle triangle.")
+    print("a is the largest side")
+    p=a*a
+    q=b*b+c*c
+    if(p==q):
+        print("It is a Pythogoreas  Triangle")
     else:
-        print("It is not a right angle triangle")
+        print("It is not a Pythogoreas  triangle")
 elif(b>a and b>c):
-    print ("B is greater than A & C");
-    x=b*b
-    y=a*a+c*c
-    if(x==y):
-        print("This is a right angle triangle.")
+    print("b is the largest side")
+    p=b*b
+    q=a*a+c*c
+    if(p==q):
+        print("It is a Pythogoreas  triange")
     else:
-        print("It is not a right angle triangle")
+        print("It is not a Pythogoreas triangle")
 else:
-    print("C is greater")
-    x=c*c
-    y=a*a+b*b
-    if(x==y):
-        print("This is a right angle triangle.")
+    print("c is the largest side")
+    p=c*c
+    q=a*a+b*b
+    if(p==q):
+        print("It is a Pythogoreas traingle")
     else:
-        print("It is not a right angle triangle")
-        
+        print("It is not a Pythogoreas traingle")
