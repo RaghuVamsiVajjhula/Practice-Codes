@@ -2,7 +2,6 @@ a=int(input("Enter the first side:"))
 b=int(input("Enter the second side:"))
 c=int(input("Enter the third side:"))
 
-
 # If a,b,c are: 3,4,5 and 5,12,13 this code tells that it is a Pythogoreas traingle.
 if(a>b and a>c):
     print("a is the largest side")
